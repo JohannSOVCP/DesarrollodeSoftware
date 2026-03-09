@@ -1,9 +1,8 @@
 # Desarrollo de Software
 
-## Actividad Git y GitHub
+## Repositorio de GitHub con todas nuestras entregas
 
-Alumno: Juan Carlos Luz Gallardo - A01028527  
-Fecha: 16/02/2026  
+Juan Carlos Luz Gallardo - A01028527  
 
 Pasos realizados:
 - Crear repositorio
