@@ -1,0 +1,13 @@
+
+:root{--bg:linear-gradient(180deg,#fff5b1 0%,#ffd89b 100%);--card:#fff;--accent:#e3350d}
+body{font-family:Roboto, Arial, sans-serif;background:var(--bg);color:#111827;margin:0;padding:2rem;display:flex;align-items:center;justify-content:center;min-height:100vh}
+.container{max-width:760px;background:var(--card);padding:1.5rem 1.75rem;border-radius:12px;box-shadow:0 10px 28px rgba(0,0,0,0.06);text-align:center}
+h1{margin:0 0 0.6rem;font-size:1.9rem;color:var(--accent);letter-spacing:0.6px}
+p{margin:0 0 0.75rem;line-height:1.55;color:#374151}
+a{color:var(--accent);text-decoration:none;font-weight:700}
+a:hover{text-decoration:underline}
+img{max-width:100%;height:auto;border-radius:10px;margin-top:0.75rem;box-shadow:0 12px 24px rgba(0,0,0,0.08);cursor:pointer;border:6px solid #fff;border-bottom-color:#f3c623}
+.muted{color:#6b7280;font-size:0.9rem;margin-top:0.5rem}
+button{background:var(--accent);color:#fff;border:0;padding:0.6rem 0.85rem;border-radius:8px;cursor:pointer;font-weight:600}
+button:hover{opacity:.95}
+@media (max-width:480px){body{padding:1rem}.container{padding:1rem}}
