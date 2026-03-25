@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breakout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="main()">
+  <div class="game-wrapper">
+    <h1>Breakout Game - Johann's Version</h1>
+    <div class="hud">
+      <span>Lives: <strong id="lives">3</strong></span>
+      <span>Destroyed Blocks: <strong id="score">0</strong></span>
+      <span>Remaining Blocks: <strong id="remaining">0</strong></span>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <div class="instructions">
+      <p><strong>Controls:</strong> Left Arrow / A, Right Arrow / D</p>
+      <p><strong>Space:</strong> Launch the ball</p>
+      <p><strong>Objective:</strong> Destroy all blocks without losing your 3 lives</p>
+    </div>
+
+    <button id="restartBtn">Restart Game</button>
+    <p id="message"></p>
+  </div>
+
+  <script src="breakout.js"></script>
+</body>
+</html>
